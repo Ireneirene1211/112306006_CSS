@@ -1,0 +1,31 @@
+body {
+    color: rgb(169, 85, 169);
+    background-color:rgba(135, 206, 250, 0.73);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+}
+
+ul.navbar {
+    position: center;
+    top: 2em;
+    left: 2em;
+    width: 30em;
+}
+select{
+    position: center;
+}
+
+@media all {
+    ul.navbar{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    }
+}
+
+@media print {
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+     }
+}
